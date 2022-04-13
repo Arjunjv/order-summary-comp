@@ -1,0 +1,103 @@
+
+/*************containers**********************************/
+body{
+	font-family: 'Red Hat Display', sans-serif;
+	background:url('images/pattern-background-desktop.svg');
+	background-color:hsl(225, 100%, 94%);
+	background-repeat:no-repeat;
+	font-size:16px;
+	display:flex;
+	min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  	flex-direction: column;	
+}
+#container{
+        background-color:white;
+	border-radius:11px;
+	width:370px;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+#desc{
+	padding:10px 30px;
+}
+#inner-container{
+	padding:12px 8px;
+	border-radius:11px;
+	background-color:hsl(225, 100%, 98%);	
+}
+table{
+	vertical-align:middle;
+	display:inline-block;
+	margin-left:5px;
+        margin-right:60px;	
+}
+
+/*****************images********************/
+#music{
+	width:40px;
+	vertical-align:middle;
+}
+#hero{
+	width:370px;
+	border-top-left-radius:11px;
+	border-top-right-radius:11px;
+}
+/********************buttons***********************/
+button{
+	width:100%;
+	display:block;
+	padding:15px 8px;
+	border-radius:11px;
+	border-radius:11px;
+	border-style:none;
+	margin-top:15px;
+	font-family: 'Red Hat Display', sans-serif;	
+}
+#pay-button{
+	background-color:hsl(245, 75%, 52%);
+	font-weight:700;
+	color:white;
+}
+#pay-button:hover{
+	cursor:pointer;
+	background-color:hsl(223, 47%, 23%);
+}
+#cancel-button{
+	background-color:white;
+	font-weight:700;
+	color:hsl(224, 23%, 55%);
+}
+#cancel-button:hover{
+        cursor:pointer;
+	color:hsl(223, 47%, 23%);
+}
+
+	/***font*****/
+	h2{
+		font-weight:900;
+	}
+	p{
+		font-weight:500;
+		font-size:15px;
+		color:hsl(224, 23%, 55%);
+	}
+	#annual{
+		color:black;
+		font-weight:700;
+	}
+	#amt{
+		color:hsl(224, 23%, 55%);
+	}
+	#change{
+		text-decoration:underline;
+		color:hsl(223, 47%, 23%);
+		font-weight:500;
+	}
+	#change:hover{
+		text-decoration:none;
+		cursor:pointer;
+	}
